@@ -1,41 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Metadata -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Personal portfolio" />
+
+    <!-- OpenGraph -->
+    <meta property="og:title" content="Title" />
+    <meta property="og:description" content="description" />
+    <meta property="og:image" content="/images/yo.jpg" />
+
+    <!-- Title -->
     <title>Personal Portfolio</title>
-    <link rel="shortcut icon" href="user.png" />
+
+    <!-- Links -->
+    <link rel="icon" href="/images/user.png" />
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <header>
+      <!-- Navigation bar -->
       <nav>
+        <img src="/images/logo.png" alt="Logo" title="Portfolio Logo" />
         <ul>
-          <li>
-            <img src="user.png" alt="Logo Image" />
-          </li>
-          <li><a href="Homepage.html">Home</a></li>
-          <li><a href="About.html">About</a></li>
-          <li><a href="Portfolio.html">Portfolio</a></li>
-          <li><a href="Location.html">Location</a></li>
+          <li><a href="homepage.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="location.html">Location</a></li>
         </ul>
+        <a href="contact.html" class="button">Let's Talk</a>
       </nav>
     </header>
-    <article>
-        <section>
-            <h1></h1>
-            <h2></h2>
-            <p></p>
-            <section>
-                <button></button>
-            </section>
-        </section>
-        </Section>
-    </article>
-    <article>
-        <img src="" alt="User Image">
-    </article>
+
+    <!-- Main content -->
+    <main>
+      <section>
+        <article>
+          <h1>Hi, I'm XXXX XXXXX</h1>
+          <h2>Frontend Developer</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate
+            consequuntur ex quibusdam in. Recusandae, vitae eaque? Vero
+            praesentium nam porro, et ex dolor.
+          </p>
+        </article>
+
+        <!-- Buttons -->
+        <div>
+          <a href="contact"><button>Hire Me</button></a>
+          <a href="portfolio.html"><button>See Projects</button></a>
+        </div>
+      </section>
+
+      <!-- Main photo -->
+      <aside>
+        <img src="/images/user.png" alt="Profile Photo" title="Profile Photo" />
+      </aside>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <section>
+        <p>&copy; 2025 Your Website. All rights reserved.</p>
+        <p>Privacy Policy</p>
+        <p>Terms of Service</p>
+      </section>
+    </footer>
   </body>
-  <footer>
-    <a href=""></a>
-  </footer>
 </html>
